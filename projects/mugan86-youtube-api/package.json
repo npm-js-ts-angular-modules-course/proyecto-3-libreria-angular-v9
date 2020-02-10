@@ -1,0 +1,27 @@
+{
+  "name": "ng-youtube-api",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^9.0.0",
+    "@angular/core": "^9.0.0",
+    "tslib": "^1.10.0",
+    "@ng-bootstrap/ng-bootstrap": "^5.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/npm-js-ts-angular-modules-course/proyecto-3-libreria-angular.git"
+  },
+  "keywords": [
+    "youtube api",
+    "angular youtube api",
+    "widget",
+    "playlist",
+    "user channel info youtube"
+  ],
+  "author": "Anartz Mugika Ledo <mugan86@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/npm-js-ts-angular-modules-course/proyecto-3-libreria-angular/issues"
+  },
+  "homepage": "https://github.com/npm-js-ts-angular-modules-course/proyecto-3-libreria-angular#readme"
+}

@@ -119,6 +119,126 @@
           }
         }
       }
+    },
+    "github-user-widget": {
+      "projectType": "library",
+      "root": "projects/github-user-widget",
+      "sourceRoot": "projects/github-user-widget/src",
+      "prefix": "guw",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/github-user-widget/tsconfig.lib.json",
+            "project": "projects/github-user-widget/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/github-user-widget/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/github-user-widget/src/test.ts",
+            "tsConfig": "projects/github-user-widget/tsconfig.spec.json",
+            "karmaConfig": "projects/github-user-widget/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/github-user-widget/tsconfig.lib.json",
+              "projects/github-user-widget/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    },
+    "mugan86-youtube-api": {
+      "projectType": "library",
+      "root": "projects/mugan86-youtube-api",
+      "sourceRoot": "projects/mugan86-youtube-api/src",
+      "prefix": "mugan86-yt-api",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/mugan86-youtube-api/tsconfig.lib.json",
+            "project": "projects/mugan86-youtube-api/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/mugan86-youtube-api/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/mugan86-youtube-api/src/test.ts",
+            "tsConfig": "projects/mugan86-youtube-api/tsconfig.spec.json",
+            "karmaConfig": "projects/mugan86-youtube-api/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/mugan86-youtube-api/tsconfig.lib.json",
+              "projects/mugan86-youtube-api/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    },
+    "hola": {
+      "projectType": "library",
+      "root": "projects/hola",
+      "sourceRoot": "projects/hola/src",
+      "prefix": "hola",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/hola/tsconfig.lib.json",
+            "project": "projects/hola/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/hola/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/hola/src/test.ts",
+            "tsConfig": "projects/hola/tsconfig.spec.json",
+            "karmaConfig": "projects/hola/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/hola/tsconfig.lib.json",
+              "projects/hola/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }},
   "defaultProject": "lib-angular"
 }

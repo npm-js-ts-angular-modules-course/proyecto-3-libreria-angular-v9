@@ -1,0 +1,14 @@
+<div class="row channel" *ngIf="channel">
+  <div class="col-md-2">
+    <img [src]="channel?.thumbnails.high.url" class="img-circle" />
+  </div>
+  <div class="col">
+    <h3> {{ channel?.title}}</h3>
+    <p>
+      {{ channel?.description}}
+    </p>
+    <p>
+      <small class="text-mutted">{{ channel?.publishedAt | dateHour}}</small>
+    </p>
+  </div>
+</div>

@@ -1,0 +1,14 @@
+<div class="row videos" *ngIf="videos">
+    <ng-template ngFor [ngForOf]="videos" let-video let-i="index">
+      <div class="card col-md-4">
+          <img [src]="video.snippet.thumbnails.high.url" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">{{ video?.snippet.title }}</h5>
+            <p class="card-text">{{ video?.snippet.description | shortDescription:100 }}</p>
+            <p class="card-text"><small class="text-muted">{{ video?.snippet.publishedAt | dateHour}}</small></p>
+            <button type="button" (click)="showVideo(video)" class="btn btn-info">Ver video</button>
+          </div>
+        </div>
+    </ng-template>
+</div>
+<button class="btn btn-outline-info morevideos" (click)="loadMore()">Cargar más videos</button>

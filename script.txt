@@ -1,0 +1,1 @@
+"build.youtube.lib": "ng build mugan86-youtube-api && cp -R ./projects/mugan86-youtube-api/src/lib/assets ./dist/mugan86-youtube-api/lib"

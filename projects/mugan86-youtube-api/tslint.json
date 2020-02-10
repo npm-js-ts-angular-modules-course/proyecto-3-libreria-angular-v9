@@ -1,0 +1,17 @@
+{
+  "extends": "../../tslint.json",
+  "rules": {
+    "directive-selector": [
+      true,
+      "attribute",
+      "mugan86YtApi",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "mugan86-yt-api",
+      "kebab-case"
+    ]
+  }
+}

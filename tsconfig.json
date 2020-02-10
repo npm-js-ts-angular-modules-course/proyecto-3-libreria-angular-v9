@@ -17,7 +17,21 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "github-user-widget": [
+        "dist/github-user-widget/github-user-widget",
+        "dist/github-user-widget"
+      ],
+      "mugan86-youtube-api": [
+        "dist/mugan86-youtube-api/mugan86-youtube-api",
+        "dist/mugan86-youtube-api"
+      ],
+      "hola": [
+        "dist/hola/hola",
+        "dist/hola"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,

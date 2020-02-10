@@ -1,0 +1,3 @@
+"build.github.lib": "ng build githubUserWidget && cp -R ./projects/github-user-widget/src/lib/assets ./dist/github-user-widget/lib"
+En Windows (se sustituye cp -R por copy)
+"build.github.lib": "ng build githubUserWidget && copy ./projects/github-user-widget/src/lib/assets ./dist/github-user-widget/lib"
