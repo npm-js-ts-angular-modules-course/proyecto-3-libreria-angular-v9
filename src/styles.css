@@ -1,2 +1,2 @@
 /* You can add global styles to this file, and also import other style files */
-@import "./../dist/github-user-widget/lib/styles/styles.scss"
+@import "./../node_modules/github-user-widget/src/lib/assets/styles/styles.scss";

@@ -1,8 +1,8 @@
+import { GithubUserWidgetModule } from 'github-user-widget/src/public-api';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import {GithubUserWidgetModule} from 'github-user-widget';
 
 @NgModule({
   declarations: [

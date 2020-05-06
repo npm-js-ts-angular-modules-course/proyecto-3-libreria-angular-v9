@@ -24,6 +24,7 @@
     "@angular/platform-browser-dynamic": "~9.0.0",
     "@angular/router": "~9.0.0",
     "@ng-bootstrap/ng-bootstrap": "^5.2.2",
+    "github-user-widget": "0.0.4",
     "ncp": "^2.0.0",
     "proyecto-1b-api-github": "^1.1.0",
     "rxjs": "~6.5.4",
